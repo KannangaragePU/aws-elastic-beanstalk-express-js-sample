@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Hello World! from Git Hub'));
+app.get('/', (req, res) => res.send('Hello World! from Git Hub with Mannual review CICD'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
